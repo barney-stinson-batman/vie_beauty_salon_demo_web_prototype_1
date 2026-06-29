@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Book — Vie Beauty Salon, Salmiya Kuwait</title>
+<meta name="description" content="Book an appointment at Vie Beauty Salon, Salmiya Kuwait. Call +965 9901 2207 or send a message. Open daily 8am–10pm."/>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<div class="preloader" id="preloader"><div class="pl-inner"><div class="pl-word"><em>Vie</em></div><div class="pl-tagline">Beauty Salon · Salmiya, Kuwait</div><div class="pl-bar"><div class="pl-fill"></div></div></div></div>
+<div class="topstrip"><div class="ts-inner"><span>📍 Shaab Al Bahri Building 24, 2nd Floor, Salmiya</span><span class="ts-sep">·</span><a href="tel:+96599012207">+965 9901 2207</a><span class="ts-sep">·</span><span>Open Daily · 8:00am – 10:00pm</span></div></div>
+<nav class="nav" id="nav">
+  <div class="nav-wrap">
+    <a href="index.html" class="nav-logo"><em>Vie</em><span>.</span></a>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="index.html" class="nm-link">Home</a></li>
+      <li><a href="services.html" class="nm-link">Services</a></li>
+      <li><a href="about.html" class="nm-link">About</a></li>
+      <li><a href="contact.html" class="nm-link active">Book</a></li>
+      <a href="contact.html" class="nav-btn-mobile">Book Now</a>
+    </ul>
+    <a href="contact.html" class="nav-btn">Book Now</a>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Book</div>
+    <h1 class="ph-h1 reveal-up">Book your<br/><em>visit.</em></h1>
+    <p class="ph-sub reveal-up d1">Call us, send a message or simply walk in. We're here every day from 8am to 10pm and always happy to welcome you.</p>
+  </div>
+</section>
+
+<section class="section" style="background:var(--champagne2);">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="cg-form reveal-up">
+        <div class="eyebrow">Send a Message</div>
+        <h2 class="display-h">Tell us what<br/><em>you'd love.</em></h2>
+        <p class="cg-intro">Fill in below and we'll confirm your appointment. Or call us directly — we're always happy to hear from you.</p>
+
+        <form class="the-form" id="contactForm" novalidate>
+          <div class="form-row-2">
+            <div class="fgroup">
+              <label for="f-name">Your Name *</label>
+              <input type="text" id="f-name" placeholder="Full name" required/>
+              <span class="ferr" id="nameErr"></span>
+            </div>
+            <div class="fgroup">
+              <label for="f-phone">Phone / WhatsApp</label>
+              <input type="tel" id="f-phone" placeholder="+965 0000 0000"/>
+            </div>
+          </div>
+          <div class="fgroup">
+            <label for="f-email">Email Address</label>
+            <input type="email" id="f-email" placeholder="you@email.com"/>
+          </div>
+          <div class="fgroup">
+            <label for="f-service">Service You'd Like</label>
+            <select id="f-service">
+              <option value="">Select a service...</option>
+              <option>Hair Colouring</option>
+              <option>Cut &amp; Blow-Dry</option>
+              <option>Highlights &amp; Balayage</option>
+              <option>Hair Treatment</option>
+              <option>Facial Treatment</option>
+              <option>Manicure</option>
+              <option>Pedicure</option>
+              <option>Gel Nails &amp; Nail Art</option>
+              <option>Waxing</option>
+              <option>Makeup</option>
+              <option>Full Pamper Package</option>
+              <option>Not Sure — Advise Me</option>
+            </select>
+          </div>
+          <div class="fgroup">
+            <label for="f-date">Preferred Day &amp; Time</label>
+            <input type="text" id="f-date" placeholder="e.g. Saturday morning, any weekday evening"/>
+          </div>
+          <div class="fgroup">
+            <label for="f-msg">Anything Else?</label>
+            <textarea id="f-msg" rows="4" placeholder="Any special requests, preferences or questions — let us know and we'll be prepared for you..."></textarea>
+          </div>
+          <button type="submit" class="btn-mauve btn-full" id="submitBtn">
+            <span id="btnTxt">Send Booking Request →</span>
+            <span id="btnLoad" style="display:none">Sending...</span>
+          </button>
+          <div class="form-success" id="formSuccess">
+            <div class="fs-icon"><em>✓</em></div>
+            <h3>Request received!</h3>
+            <p>Thank you for reaching out to Vie. We'll be in touch shortly to confirm your appointment. Can't wait to welcome you.</p>
+          </div>
+        </form>
+      </div>
+
+      <div class="reveal-right">
+        <div class="ci-box">
+          <div class="ci-logo"><em>Vie</em><span>.</span></div>
+
+          <div class="ci-block">
+            <div class="ci-label">Call or WhatsApp</div>
+            <a href="tel:+96599012207" style="font-family:var(--font-d); font-size:1.5rem; font-style:italic; color:var(--mauve2); display:block; margin-bottom:6px; transition:color var(--t);">+965 9901 2207</a>
+            <div class="ci-val" style="font-size:0.82rem;">For fastest response — call or WhatsApp directly.</div>
+          </div>
+
+          <div class="ci-block">
+            <div class="ci-label">Address</div>
+            <div class="ci-val">Shaab Al Bahri Building 24<br/>2nd Floor, Al Kindi Street<br/>Salmiya, <strong>Kuwait</strong></div>
+          </div>
+
+          <div class="ci-block">
+            <div class="ci-label">Opening Hours</div>
+            <div class="ci-hours">
+              <div class="ch-row"><span>Saturday</span><span>8:00am – 10:00pm</span></div>
+              <div class="ch-row"><span>Sunday</span><span>8:00am – 10:00pm</span></div>
+              <div class="ch-row"><span>Monday</span><span>8:00am – 10:00pm</span></div>
+              <div class="ch-row"><span>Tuesday</span><span>8:00am – 10:00pm</span></div>
+              <div class="ch-row"><span>Wednesday</span><span>8:00am – 10:00pm</span></div>
+              <div class="ch-row"><span>Thursday</span><span>8:00am – 10:00pm</span></div>
+              <div class="ch-row"><span>Friday</span><span>8:00am – 10:00pm</span></div>
+            </div>
+            <div id="openStatus"></div>
+          </div>
+
+          <div class="ci-block">
+            <div class="ci-label">Follow Us</div>
+            <div class="ci-val"><a href="https://www.instagram.com/vie.kuwait" target="_blank">@vie.kuwait</a> on Instagram</div>
+          </div>
+
+          <div class="ci-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3477.0!2d48.028!3d29.351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9def8127c161%3A0x3d1a0682f555008b!2sSalmiya%2C+Kuwait!5e0!3m2!1sen!2skw!4v1"
+              width="100%" height="180"
+              style="border:0; border-radius:10px;"
+              allowfullscreen="" loading="lazy"
+              title="Vie Beauty Salon location">
+            </iframe>
+          </div>
+        </div>
+
+        <div style="margin-top:24px; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+          <div style="background:var(--champagne); border:1px solid var(--border); border-radius:var(--r-md); padding:20px; text-align:center;">
+            <div style="font-family:var(--font-d); font-size:1.4rem; font-style:italic; color:var(--mauve); margin-bottom:4px;">Daily</div>
+            <div style="font-size:0.65rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); font-weight:600;">Open Every Day</div>
+          </div>
+          <div style="background:var(--champagne); border:1px solid var(--border); border-radius:var(--r-md); padding:20px; text-align:center;">
+            <div style="font-family:var(--font-d); font-size:1.4rem; font-style:italic; color:var(--mauve); margin-bottom:4px;">8am–10pm</div>
+            <div style="font-size:0.65rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--muted); font-weight:600;">Long Hours</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="fg-brand"><div class="fg-logo"><em>Vie</em><span>.</span></div><p>A chic and modern beauty destination in Salmiya, Kuwait — dedicated to enhancing your natural charm with expert care and premium treatments.</p><div class="fg-tagline">"Where beauty meets its finest form."</div></div>
+      <div class="fg-col"><h4>Navigate</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Book Now</a></li></ul></div>
+      <div class="fg-col"><h4>Services</h4><ul><li><a href="services.html">Hair &amp; Colour</a></li><li><a href="services.html">Facials &amp; Skin</a></li><li><a href="services.html">Nails</a></li><li><a href="services.html">Waxing</a></li><li><a href="services.html">Makeup</a></li></ul></div>
+      <div class="fg-col"><h4>Visit Us</h4><a href="tel:+96599012207" class="fg-phone">+965 9901 2207</a><p>Shaab Al Bahri Building 24<br/>2nd Floor, Salmiya, Kuwait<br/>Open Daily · 8am – 10pm</p></div>
+    </div>
+    <div class="footer-bottom"><span>© 2025 Vie Beauty Salon · Salmiya, Kuwait</span><a href="https://www.instagram.com/vie.kuwait" target="_blank">@vie.kuwait</a></div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
